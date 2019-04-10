@@ -1,0 +1,12 @@
+# comentários
+.idea/
+.vscode/
+.settings/
+.project
+*.iml
+
+# comentários
+out/
+gen/
+
+# comentários
