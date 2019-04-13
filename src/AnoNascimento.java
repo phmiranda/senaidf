@@ -44,9 +44,10 @@ public class AnoNascimento {
             }else{
                 System.out.println("Não foi possível computador o ano do nascimento!");
             }
-        }catch(Exception e){
+            scanner.nextLine();
+        }catch(ArrayIndexOutOfBoundsException e){
             System.out.println("Erro na entrada de dados");
-        }catch(ArrayIndexOutOfBoundsException e) {
+        }catch(Exception e) {
             System.out.println("Erro na entrada de dados");
         }
     }
