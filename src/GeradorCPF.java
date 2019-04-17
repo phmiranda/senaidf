@@ -1,3 +1,6 @@
+import javax.swing.*;
+import java.util.Random;
+
 // comentário
 public class GeradorCPF {
     // comentário
@@ -31,28 +34,44 @@ public class GeradorCPF {
     public static void main(String[] args){
         // comentário
         int[]cpf = new int[11];
-        cpf[0] = 0;
-        cpf[1] = 4;
-        cpf[2] = 3;
-        cpf[3] = 2;
-        cpf[4] = 5;
-        cpf[5] = 4;
-        cpf[6] = 6;
-        cpf[7] = 9;
-        cpf[8] = 1;
+
+        // comentário
+        Random aleatorio = new Random();
+
+        // comentário
+        for (int i = 0; i < 9; i++){
+            cpf[i] = aleatorio.nextInt(10);
+        }
 
         // comentário
         cpf[9] = buscaDig(0, cpf);
         System.out.println(cpf[9]);
 
         // comentário
-        cpf[10] = buscaDig(1,cpf);
+        cpf[10] = buscaDig(1, cpf);
         System.out.println(cpf[10]);
 
         // comentário
-        for(int i = 0; i < cpf.length; i++){
+        String txCpf = "";
+
+        // comentário
+        for (int i = 0; i < cpf.length; i++){
             System.out.print(cpf[i]);
-            // desafio: incluir máscara na impressão do CPF ao buildar a classe
+            txCpf = txCpf + cpf[i];
+
+            // comentário
+            if (i == 2 || i ==5){
+                System.out.print(".");
+                txCpf += ".";
+            }
+
+            // comentário
+            if (i == 8){
+                System.out.print("-");
+                txCpf += "-";
+            }
         }
+        // comentário
+        JOptionPane.showMessageDialog(null, txCpf);
     }
 }
