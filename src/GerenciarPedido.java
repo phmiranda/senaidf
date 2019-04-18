@@ -1,9 +1,7 @@
-import javax.swing.*;
-import java.awt.*;
+// comentário
 
-/**
- * 05 - Criar um algoritmo
- **/
+// comentário
+import javax.swing.*;
 
 public class GerenciarPedido {
     public static void main(String[] args) {

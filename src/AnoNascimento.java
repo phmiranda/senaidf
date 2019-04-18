@@ -1,4 +1,6 @@
 // comentário
+
+// comentário
 import java.util.Scanner;
 
 // comentário

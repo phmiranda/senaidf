@@ -1,3 +1,6 @@
+// comentário
+
+// comentário
 import javax.swing.*;
 import java.util.Random;
 
