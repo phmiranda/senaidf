@@ -1,4 +1,5 @@
-import javax.swing.*;
+// comentário
+import javax.swing.JOptionPane;
 
 public class GerenciarConta extends Conta {
 
@@ -44,11 +45,12 @@ public class GerenciarConta extends Conta {
         }
 
         // comentário
-        //if (conta01.sacar(1800)){
-        //    System.out.println("Saque realizado com sucesso");
-        //}else{
-        //    System.out.println("Saldo insuficiente para saque");
-        //}
+        if (conta01.sacar(1800)){
+            System.out.println("Saque realizado com sucesso");
+        }else{
+            System.out.println("Saldo insuficiente para saque");
+        }
+
         // comentário
         System.out.println("Nome: "+ conta01.nome + "\nSaldo: " + conta01.getSaldo());
     }

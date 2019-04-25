@@ -3,6 +3,6 @@
  * o jogo vai ser contra o computador, em cada rodada o sistema vai mostrar qual foi o resultado,
  * ao terminar as rodadas o sistema vai mostrar o placar.
  */
-public class Exercicio05 {
+public class JoKenPo {
 
 }

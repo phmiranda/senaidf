@@ -2,9 +2,20 @@ public class Conta {
     // comentário
     public int numero;
     public String nome;
+    private Cliente cliente;
     private double saldo;
-    private String extrato;
+    private String extrato = "";
 
+    // comentário
+
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
 
     // comentário
     public double getSaldo(){
@@ -13,13 +24,13 @@ public class Conta {
 
     // comentário
     public String getExtrato(){
-        return extrato;
+        return this.extrato;
     }
 
     // comentário
     public boolean depositar(double valor){
         extrato += "C - " + valor;
-        saldo+= valor;
+        saldo += valor;
         return true;
     }
 
@@ -30,7 +41,7 @@ public class Conta {
             return false;
         }
         extrato += "D - " + valor;
-        saldo-= valor;
+        saldo -= valor;
         return true;
     }
 }
