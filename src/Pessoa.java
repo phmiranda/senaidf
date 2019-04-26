@@ -1,9 +1,11 @@
+import java.util.Date;
+
 public class Pessoa {
     // variáveis privadas utilizadas somente na classe
     private String nome;
     private String cpf;
-    private String sexo;
-    private int idade;
+    private Date dataNascimento;
+    private char sexo;
 
     // métodos que serão utilizadas em qualquer escopo do projeto
     public String getNome() {
@@ -22,19 +24,19 @@ public class Pessoa {
         this.cpf = cpf;
     }
 
-    public String getSexo() {
+    public Date getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(Date dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+
+    public char getSexo() {
         return sexo;
     }
 
-    public void setSexo(String sexo) {
+    public void setSexo(char sexo) {
         this.sexo = sexo;
-    }
-
-    public int getIdade() {
-        return idade;
-    }
-
-    public void setIdade(int idade) {
-        this.idade = idade;
     }
 }

@@ -18,10 +18,11 @@ public class GerenciarConta extends Conta {
 
         // comentário
         Object[] opcoes = {
-                "Depositar",
-                "Sacar",
-                "Saldo",
+                "Dados do Cliente" ,
                 "Extrato",
+                "Depositar",
+                "Saldo",
+                "Sacar",
         };
 
         // comentário
