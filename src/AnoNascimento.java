@@ -1,4 +1,6 @@
 // comentário
+
+// comentário
 import java.util.Scanner;
 
 // comentário
@@ -7,6 +9,12 @@ public class AnoNascimento {
     public static void main(String[] args){
         // tratamento de exceção na execução condicional
         try{
+            String[] lista = new String[3];
+            lista[0] = "cmd";
+            lista[1] = "/c";
+            lista[2] = "cls";
+            new ProcessBuilder(lista).inheritIO().start().waitFor();
+            //new ProcessBuilder("cmd","/c","cls").inheritIO().start().waitFor();
             System.out.println("Digite seu nome:");
             Scanner scanner = new Scanner(System.in);
             String pessoa = scanner.nextLine();
@@ -38,7 +46,10 @@ public class AnoNascimento {
             }else{
                 System.out.println("Não foi possível computador o ano do nascimento!");
             }
-        }catch(Exception e){
+            scanner.nextLine();
+        }catch(ArrayIndexOutOfBoundsException e){
+            System.out.println("Erro na entrada de dados");
+        }catch(Exception e) {
             System.out.println("Erro na entrada de dados");
         }
     }

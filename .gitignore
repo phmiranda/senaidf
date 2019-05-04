@@ -6,6 +6,7 @@
 *.iml
 
 # comentários
+lib/
 out/
 gen/
 
