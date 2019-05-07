@@ -13,7 +13,6 @@ public class AnoNascimento {
             lista[0] = "cmd";
             lista[1] = "/c";
             lista[2] = "cls";
-            new ProcessBuilder(lista).inheritIO().start().waitFor();
             //new ProcessBuilder("cmd","/c","cls").inheritIO().start().waitFor();
             System.out.println("Digite seu nome:");
             Scanner scanner = new Scanner(System.in);
