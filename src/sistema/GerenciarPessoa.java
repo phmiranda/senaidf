@@ -1,14 +1,15 @@
+package sistema;
+
 import javax.swing.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.lang.String;
 
 public class GerenciarPessoa {
 
     public static void main(String[] args) throws ParseException {
-        // método new é um construtor da classe 'Cliente'
-        //Cliente cliente = new Cliente(); -> método default sem parâmetros conforme declaração na classe Cliente
+        // método new é um construtor da classe 'sistema.Cliente'
+        //sistema.Cliente cliente = new sistema.Cliente(); -> método default sem parâmetros conforme declaração na classe sistema.Cliente
 
         // string que faz a leitura através de uma caixa de diálogo na tela
         String nome = JOptionPane.showInputDialog("Digite o nome do cliente: ");

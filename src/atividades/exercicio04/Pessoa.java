@@ -1,3 +1,5 @@
+package atividades.exercicio04;
+
 import java.util.Date;
 
 public class Pessoa {

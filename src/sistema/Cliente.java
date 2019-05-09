@@ -1,3 +1,5 @@
+package sistema;
+
 public class Cliente extends Pessoa {
     // comentário
     private double renda;

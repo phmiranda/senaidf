@@ -1,4 +1,4 @@
-// comentário
+package sistema;// comentário
 import javax.swing.JOptionPane;
 
 public class GerenciarConta extends Conta {
@@ -18,7 +18,7 @@ public class GerenciarConta extends Conta {
 
         // comentário
         Object[] opcoes = {
-                "Dados do Cliente" ,
+                "Dados do sistema.Cliente" ,
                 "Extrato",
                 "Depositar",
                 "Saldo",

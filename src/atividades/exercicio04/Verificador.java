@@ -1,4 +1,4 @@
-/**
+package atividades.exercicio04; /**
  * 01 - Escreva um algoritmo que vai ler N1 e N2 e o sistema vai escrever os números entre eles.
  */
 

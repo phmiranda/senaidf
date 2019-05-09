@@ -1,4 +1,5 @@
 // comentário
+package atividades.exercicio04;
 
 // comentário
 import java.util.Scanner;

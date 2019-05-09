@@ -1,3 +1,5 @@
+package sistema;
+
 public class Conta {
     // comentário
     public int numero;

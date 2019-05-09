@@ -1,4 +1,4 @@
-// comentário
+package atividades.exercicio04;// comentário
 
 public class OlaMundo {
     // comentário

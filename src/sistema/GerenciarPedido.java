@@ -1,4 +1,4 @@
-// comentário
+package sistema;// comentário
 
 // comentário
 import javax.swing.*;
