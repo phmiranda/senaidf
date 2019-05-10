@@ -1,3 +1,7 @@
+/**
+ * Fazer um 'Olá Mundo' em Java escrito no Papel. Vale ponto.
+ */
+
 package atividades.exercicio03;
 
 public class OlaMundo {

@@ -8,8 +8,8 @@ import java.lang.String;
 public class GerenciarPessoa {
 
     public static void main(String[] args) throws ParseException {
-        // método new é um construtor da classe 'sistema.Cliente'
-        //sistema.Cliente cliente = new sistema.Cliente(); -> método default sem parâmetros conforme declaração na classe sistema.Cliente
+        // método new é um construtor da classe 'sistema.Questao03'
+        //sistema.Questao03 cliente = new sistema.Questao03(); -> método default sem parâmetros conforme declaração na classe sistema.Questao03
 
         // string que faz a leitura através de uma caixa de diálogo na tela
         String nome = JOptionPane.showInputDialog("Digite o nome do cliente: ");
